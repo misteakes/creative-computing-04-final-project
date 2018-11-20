@@ -1,3 +1,12 @@
+for(var i=0; i<16; i++) {
+
+  var shape = document.createElement('div');
+  shape.classList.add('shape');
+  var container = document.querySelector('.content');
+  container.append(shape);
+
+}
+
 /*
   Returns a random whole number between minimum value and maximum value
 
@@ -49,3 +58,36 @@ function hslColor(h, s, l) {
 
 
 /* START WRITING YOUR CODE BELOW */
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsbyClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length};
+  for (i=0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
