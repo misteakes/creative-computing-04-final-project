@@ -3,6 +3,10 @@
   font-family: 'Mukta Mahee', sans-serif;
 }
 
+#grad {
+    background-image: linear-gradient(blue, yellow);
+}
+
 html {
   margin: 0;
   padding: 0;
