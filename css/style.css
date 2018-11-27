@@ -72,7 +72,7 @@ p{
   backface-visibility: hidden;
 }
 
-.container:hover .main_2016.png {
+.main_2016.png:hover {
   opacity: 0.3;
 }
 
@@ -87,7 +87,7 @@ p{
   text-align: center;
 }
 
-.container:hover .middle {
+.middle:hover {
   opacity: 1;
 }
 
