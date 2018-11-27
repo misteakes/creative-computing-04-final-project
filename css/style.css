@@ -26,7 +26,6 @@ h1{
   font-weight: normal;
   font-size: 32px;
   color: rebeccapurple;
-  border-style: solid;
 }
 
 h2{
@@ -34,7 +33,6 @@ h2{
   font-weight: normal;
   font-size: 28px;
   color: rebeccapurple;
-  border-style: solid;
 }
 
 .center {
@@ -50,8 +48,6 @@ h2{
   height: 100%;
   width: 100%;
 }
-
-/* New Code */
 
 .column {
     float: left;
