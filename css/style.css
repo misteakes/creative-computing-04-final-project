@@ -32,15 +32,11 @@ h1{
 .maintext {
   text-align:center;
 }
-.text {
-  text-align:center;
-  display:block;
-}
 
 p{
   text-align:center;
   display:block;
-  
+
   font-size: 20px;
   color:#f7fafb;
   font-family: 'Gaegu', cursive;
