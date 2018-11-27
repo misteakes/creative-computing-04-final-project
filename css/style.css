@@ -29,6 +29,10 @@ h1{
   color: #f7fafb;
 }
 
+.maintext {
+  text-align:center;
+}
+
 p{
   font-size: 20px;
   color:#f7fafb;
@@ -36,10 +40,6 @@ p{
 
   margin-left: 200px;
   margin-right: 200px;
-}
-
-.maintext {
-  text-align:center;
 }
 
 .center {
