@@ -32,6 +32,9 @@ h1{
 .maintext {
   text-align:center;
 }
+.text {
+  text-align:center;
+}
 
 p{
   font-size: 20px;
