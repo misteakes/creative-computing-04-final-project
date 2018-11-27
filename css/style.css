@@ -31,7 +31,10 @@ h1{
 p{
   font-size: 20px;
   color:#f7fafb;
-  font-family: 'Gaegu', cursive;;
+  font-family: 'Gaegu', cursive;
+
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .center {
