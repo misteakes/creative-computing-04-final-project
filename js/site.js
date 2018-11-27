@@ -73,14 +73,6 @@ function one() {
     }
 }
 
-// Three images side by side
-function four() {
-    for (i = 0; i < elements.length; i++) {
-        elements[i].style.msFlex = "33%";  // IE10
-        elements[i].style.flex = "33%";
-    }
-}
-
 // Four images side by side
 function four() {
     for (i = 0; i < elements.length; i++) {
