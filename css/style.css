@@ -29,9 +29,10 @@ h1{
   color: #f7fafb;
 }
 
-.text {
+.innertext {
   text-align: center;
   width: 50%;
+  font-size: 20px;
 }
 
 .maintext {
@@ -68,10 +69,138 @@ p{
 
 .column {
     float: left;
+    position: relative;
     width: 25%;
 }
 
 /* Opacity Box Code :-) */
+
+.text {
+  font-family: 'Gaegu', cursive;
+  color: #f7fafb;
+  font-size: 72px;
+}
+
+/* 2016 */
+
+.main_2016.png {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.six:hover img {
+  opacity: 0.3;
+}
+
+.six:hover .middle {
+  opacity: 1;
+}
+
+/* 2017 */
+
+.main_2017.png {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.seven:hover img {
+  opacity: 0.3;
+}
+
+.seven:hover .middle {
+  opacity: 1;
+}
+
+/* 2018 */
+
+.main_2018.png {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.eight:hover img {
+  opacity: 0.3;
+}
+
+.eight:hover .middle {
+  opacity: 1;
+}
+
+/* Picture of me aka my Github */
+
+.main_me.png {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.github:hover img {
+  opacity: 0.3;
+}
+
+.github:hover .middle {
+  opacity: 1;
+}
+
 
 
 
