@@ -31,7 +31,8 @@ body {
 /* New Code */
 
 .column {
-    size: 25%;
+    float: left;
+    width: 25%;
 }
 
 
