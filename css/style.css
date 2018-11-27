@@ -29,6 +29,10 @@ h1{
   color: #f7fafb;
 }
 
+.text {
+  text-align: center;
+}
+
 .maintext {
   text-align:center;
   display:block;
