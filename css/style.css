@@ -30,12 +30,8 @@ body {
 
 /* New Code */
 
-.row {
-    display: flex;
-}
-
 .column {
-    flex: 25%;
+    size: 25%;
 }
 
 
