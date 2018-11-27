@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Mukta Mahee', sans-serif;
 }
 
 html {
@@ -12,6 +13,27 @@ body {
   padding: 0;
   min-width: 100vw;
   min-height: 100vh;
+
+  text-align: center;
+  font-size: 24px;
+  color: darkorchid;
+  width: 800px;
+}
+
+h1{
+  text-align: center;
+  font-weight: normal;
+  font-size: 32px;
+  color: rebeccapurple;
+  border-style: solid;
+}
+
+h2{
+  text-align: center;
+  font-weight: normal;
+  font-size: 28px;
+  color: rebeccapurple;
+  border-style: solid;
 }
 
 .center {
@@ -34,24 +56,3 @@ body {
     float: left;
     width: 25%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
