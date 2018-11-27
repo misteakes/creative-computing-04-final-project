@@ -91,6 +91,12 @@ p{
   opacity: 1;
 }
 
+.text {
+  background-color: #9cc7de;
+  color: #f7fafb;
+  font-size: 16px;
+  padding: 16px 32px;
+}
 
 
 
