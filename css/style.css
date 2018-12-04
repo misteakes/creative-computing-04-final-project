@@ -232,6 +232,37 @@ p{
   opacity: 1;
 }
 
+/* images/2017_64.png */
+
+.2017_64.png {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.github:hover img {
+  opacity: 0.3;
+}
+
+.github:hover .middle {
+  opacity: 1;
+}
+
+
 
 
 
